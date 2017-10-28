@@ -3,4 +3,4 @@
   1. [Create a personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
   2. Add the token as an environment variable to your bash profile:
   `export GHAPIAUTH=ABCDEFGTOKENVALUE`
-
+* The output is (invalid) html. I just direct the output into a file and open that in a browser `python client.py > output.html`
