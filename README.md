@@ -4,3 +4,7 @@
   2. Add the token as an environment variable to your bash profile:
   `export GHAPIAUTH=ABCDEFGTOKENVALUE`
 * The output is (invalid) html. I just direct the output into a file and open that in a browser `python client.py > output.html`
+* To run the script for the commits endpoint to search for the keyword "removed password"
+	python client.py -e=commits -q="removed password" > output.html
+* To run the script for the code endpoint to search for pom.xml file containing the keyword apache
+    python client.py -e=code -q="apache+filename:pom.xml" > output.html
